@@ -11,7 +11,7 @@ $ curl -L https://ghost.org/zip/ghost-latest.zip -o ghost.zip
 $ unzip -uo ghost.zip -d ghost
 
 # rsync the content of the latest release with our blog
-$ rsync -r ghost/ ladislas.me
+$ rsync -rabu ghost/ ladislas.me
 
 # install node modules
 $ npm install --production
