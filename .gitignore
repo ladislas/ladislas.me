@@ -1,3 +1,4 @@
+# macOS
 *.DS_Store
 .AppleDouble
 .LSOverride
@@ -23,3 +24,16 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ghost
+Gruntfile.js
+LICENSE
+PRIVACY.md
+README.md
+config.example.js
+core/
+index.js
+npm-shrinkwrap.json
+package.json
+content/themes/casper/
+node_modules/
