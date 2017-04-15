@@ -21,8 +21,10 @@ $ npm start - to test on local environment
 $ npm start --production - for production
 
 # visit the following to make sure it works
-$ http://localhost:2368/ghost :tada:
+$ http://localhost:2368/ghost
 ```
+
+:tada:
 
 More [install docs](http://support.ghost.org/installation/) here in case you got stuck.
 
