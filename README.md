@@ -4,11 +4,11 @@
 
 ```
 # clone the repo
-$ git clone https://github.com/ladislas/ladislas.me
+$ git clone --recursive https://github.com/ladislas/ladislas.me
 
 # downloand and unzip the latest ghost
 $ curl -L https://ghost.org/zip/ghost-latest.zip -o ghost.zip
-$ unzip -uo ghost.zip
+$ unzip -uo ghost.zip -d ghost
 
 # rsync the content of the latest release with our blog
 $ rsync -r ghost/ ladislas.me
