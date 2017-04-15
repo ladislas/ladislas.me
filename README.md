@@ -17,7 +17,7 @@ $ rsync -r ghost/ ladislas.me
 $ npm install --production
 
 # launch the server
-$ npm start` - to test on local environment
+$ npm start - to test on local environment
 $ npm start --production - for production
 
 # visit the following to make sure it works
